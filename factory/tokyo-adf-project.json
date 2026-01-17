@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-adf-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7241eb1e-50fd-45e8-a934-ee352cceafd8",
+		"tenantId": "db7b1748-d2fd-43c2-ba93-c476c2e90101"
+	}
+}

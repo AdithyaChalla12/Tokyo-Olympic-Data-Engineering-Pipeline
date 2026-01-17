@@ -1,0 +1,23 @@
+{
+	"name": "entriesgender_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GitHttp LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "AdithyaChalla12/Tokyo-Olympic-Data-Engineering-Pipeline/refs/heads/main/data/EntriesGender.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
